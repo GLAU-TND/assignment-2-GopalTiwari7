@@ -24,6 +24,10 @@ public class MyMain {
         for (String s1 : ar) {
             myBinarySearchTree.add(Integer.parseInt(s1));
         }
+        MyQueue<Integer> myQueue = new MyQueue<>();
+        System.out.println("Nodes After traversing in Pre Order :");
+        MyQueue<Integer> myQueue1 = traversePreOrder(myBinarySearchTree.getRoot(), myQueue);
+        System.out.println();
 
     }
     public static MyQueue traversePreOrder(TreeNode<Integer> currentNode, MyQueue<Integer> myQueue) {
