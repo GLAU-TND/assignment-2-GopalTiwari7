@@ -31,6 +31,7 @@ public class MyMain {
             Student st = new Student(rollNumber, name, backLog);
             myCircularQueue.enqueue(st);
         }
+        System.out.println(myCircularQueue);
 
 
     }
