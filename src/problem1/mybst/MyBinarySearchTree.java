@@ -20,7 +20,7 @@ public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
     }
 
     @Override
-    public boolean data(E data) {
+    public boolean add(E data) {
         root = addRecursive(root,data);
         return true;
     }
