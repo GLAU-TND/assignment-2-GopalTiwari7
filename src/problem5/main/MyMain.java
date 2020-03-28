@@ -19,6 +19,7 @@ public class MyMain {
         System.out.print("Enter number of Students you want to add in queue :");
         int n = scanner.nextInt();
         scanner.nextLine();
-    }
 
+
+    }
 }

@@ -10,6 +10,17 @@ public class MyCircularQueue<E> implements CircularQueueADT<E> {
 
     @Override
     public void enqueue(E data) {
+        Node node = new Node(data);
+        if (isEmpty()) {
+            rear = node;
+            size++;
+            node.setNext(node);
+        } else {
+            node.setNext(rear.getNext());
+            rear.setNext(node);
+            rear = node;
+            size++;
+        }
 
     }
 
