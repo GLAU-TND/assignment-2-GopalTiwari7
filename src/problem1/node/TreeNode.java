@@ -11,4 +11,8 @@ public class TreeNode <E>{
     private TreeNode<E> leftChild;
     private TreeNode<E> rightChild;
 
+    public TreeNode(E data){
+        this.data = data;
+    }
+
 }
