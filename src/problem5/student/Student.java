@@ -17,6 +17,14 @@ public class Student {
         this.backLog = backLog;
     }
 
+    public int getBackLog() {
+        return backLog;
+    }
+
+    public void setBackLog(int backLog) {
+        this.backLog = backLog;
+    }
+
     public int getRollNumber() {
         return rollNumber;
     }
