@@ -2,17 +2,17 @@ package problem3.adt;
 
 public interface QueueADT<E> {
 
-        // Add the element at rear
+    // Add the element at rear
 
-        void add(E data);
+    void add(E data);
 
-        //remove the element at front
+    //remove the element at front
 
-        E remove();
+    E remove();
 
-        //extract the element without removing
+    //extract the element without removing
 
-        E peek();
+    E peek();
 
-        // sort the queue
-    }
+    // sort the queue
+}
