@@ -44,7 +44,9 @@ public class MyCircularQueue<E> implements CircularQueueADT<E> {
 
     @Override
     public E peek() {
-        return null;
+        Node<E> node = rear.getNext();
+        E data = node.getData();
+        return data;
     }
 
     @Override
